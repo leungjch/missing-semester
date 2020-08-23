@@ -91,5 +91,7 @@ The **root** user is the administrator user and has userid of 0. It's a 'superus
 
 `sudo -i` # Become root
 
+Having root user permissions allows you to access places that would otherwise be restricted, for example the `/sys/` directory which shows lots of interesting system level features such as battery power level, LED status of keys (e.g. scrolllock, caps lock), etc.
+
 # Opening files
 `xdg-open [file]` Opens the file using an appropriate application.
