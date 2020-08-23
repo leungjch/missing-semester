@@ -46,7 +46,7 @@ Options are optional arguments to pass in. An option takes in a value.
 # More commands
 Use `ls -l` to show a list of files with detailed info.
 
-`mv` moves the file somewhere. It can also be used to rename a file.
+`mv` moves the file somewhere. It can also be used to rename a file. Use `mv -t DESTINATION f1 f2 f3` to move multiple files into a directory. 
 `cp` copies the file somewhere. 
 `rm` removes the file. `rm` cannot remove directories, only single files. Use the `-r` flag to remove the file recursively. 
 `rmdir` removes directories.
