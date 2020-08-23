@@ -83,6 +83,7 @@ In summary, `>` is used to write into (overwrite) and `<` is used to get the out
 `|` is the pipe. It means 'take the output of the program on the left and make it the input of the program on the right.
 
 Ex: `ls -l / | tail -n1` Gives the last row of the listing of the root directory. 
+Ex: `missing:~$ curl --head --silent google.com | grep --ignore-case content-length | cut --delimiter=' ' -f2` Gets info about google.com and gets the number of bytes.
 
 # Users
 The **root** user is the administrator user and has userid of 0. It's a 'superuser'. 
