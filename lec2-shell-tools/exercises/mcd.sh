@@ -1,0 +1,3 @@
+mcd () {
+	echo Hi
+}
